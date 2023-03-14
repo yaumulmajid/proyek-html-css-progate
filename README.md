@@ -1,2 +1,2 @@
 # B1-Progate
-HTML &amp; CSS
+HTML &amp; CSS.
