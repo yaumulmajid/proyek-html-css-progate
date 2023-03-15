@@ -7,24 +7,60 @@
     <title>Online Course</title>
     <link rel="stylesheet" href="stylesheet.css" />
     <link rel="stylesheet" href="responsive.css" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Ini Bukannya tidak Boleh ya menggunakan Framework Bootstrap ??? -->
+    <!-- <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" /> -->
   </head>
   <body>
-    <header>
-      <div class="header-left">
-        <a class="logo" href="./">B1</a>
-      </div>
-      <div class="header-right">
-        <input class="inputnav" id="check01" type="checkbox">
-        <label for="check01" class="fa fa-bars menu-icon"></label>
-        <ul class="navigation">
-          <li><a href="#home" class="nav">Home</a></li>
-          <li><a href="#course" class="nav">Course</a></li>
-          <li><a href="#tutor" class="nav">Tutor</a></li>
-          <li><a href="#contact" class="nav">Contact</a></li>
-        </ul>
-      </div>
-    </header>
-    <h1>HELLO WORLD!!</h1>
+    <div class="container">
+      <header>
+        <div class="header-left">
+          <a class="logo" href="./">Online Course</a>
+        </div>
+        <div class="header-right">
+          <input class="inputnav" id="check01" type="checkbox" />
+          <label for="check01" class="fa fa-bars menu-icon"></label>
+          <ul class="navigation">
+            <li><a href="#home" class="nav">Home</a></li>
+            <li><a href="#course" class="nav">Course</a></li>
+            <li><a href="#tutor" class="nav">Tutor</a></li>
+            <li><a href="#contact" class="nav">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+      <section id="home">
+        <div class="main">
+          <div class="main-left">
+            <div class="search-box">
+              <img src="img/search-box.jpg" alt="" />
+              <input type="text" />
+            </div>
+            <h1>Study From <span>Home</span></h1>
+            <h3>Anytime & Anywhere</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis odio ducimus earum. Asperiores, distinctio unde.</p>
+            <div class="btn">
+              <a href="#Login"><button type="button" class="primary-btn">Login</button></a>
+              <a href="#Signup"><button type="button" class="second-btn">Sign Up</button></a>
+            </div>
+            <div class="social-icons">
+              <a href="#">
+                <img src="img/twitter.png" />
+              </a>
+              <a href="#">
+                <img src="img/instagram.png" />
+              </a>
+              <a href="#">
+                <img src="img/pinterest.png" />
+              </a>
+              <a href="#">
+                <img src="img/facebook.png" />
+              </a>
+            </div>
+          </div>
+          <div class="main-right">
+            <img class="logo-right" src="img/logo-right.jpg" />
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
