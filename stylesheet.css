@@ -291,6 +291,10 @@ footer {
   text-decoration: none;
 }
 
+.footer-distributed .footer-center p a:hover {
+  color: #ffffff;
+}
+
 /* Footer Right */
 
 .footer-distributed .footer-right {
