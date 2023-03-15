@@ -184,3 +184,305 @@ a:link {
   left: -160px;
   top: 10px;
 }
+
+/*********body style**********/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**************************************/
+
+.body-content{
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    font-family: sans-serif;
+}
+
+.body-content .container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.body-content .container h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.body-content .container .list-item{
+    width: 100%;
+    text-align: center;
+}
+
+.body-content .container .list-item .list{
+    width: 20%;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 5px rgba(0, 0, 0, 0.114);
+    transition: all 0.5s;
+}
+
+.body-content .container .list-item .list:hover{
+    background-color: rgb(172, 235, 143);
+    cursor: pointer;
+}
+
+.body-content .container .list-item .list span,
+.body-content .container .list-item .list ul{
+    float: left;
+    text-align: left;
+}
+
+.body-content .container .list-item .list .fa{
+    margin-right: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.body-content .container .list-item .list .desc{
+    font-weight: lighter;
+    font-size: 10px;
+    margin-top: 5px;
+    color: rgb(167, 167, 167);
+}
+
+.bottom-body-content{
+    width: 100%;
+    font-family: sans-serif;
+    border-top: 1px solid rgba(109, 109, 109, 0.397);
+    border-bottom: 1px solid rgb(109, 109, 109, 0.397);
+}
+
+.bottom-body-content .container{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.bottom-body-content .container .question-content h2{
+    font-weight: bold;
+    float: left;
+    font-size: 20px;
+}
+
+.bottom-body-content .container .see-all a{
+    float: right;
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: none;
+    transition: linear 0.7s ease-in-out;
+}
+
+.bottom-body-content .container .see-all a:hover{
+    cursor: pointer;
+    border-bottom: 2px solid ;
+}
+
+.bottom-body-content .container .clear{
+    clear: left;
+}
+
+.mentor-content{
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.mentor-content .container{
+    width: 80%;
+    margin: auto;
+}
+
+.mentor-content .container .left-side{
+    width: 50%;
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.mentor-content .container .left-side h1{
+    font-size: 50px;
+    font-weight: bold;
+    border-left: 5px solid greenyellow;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.mentor-content .container .left-side p{
+    width: 80%;
+    text-align: justify;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.mentor-content .container .left-side a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: white;
+}
+
+.mentor-content .container .right-side{
+    width: 50%;
+    text-align: center;
+    float: right;
+}
+
+.mentor-content .container .right-side img{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.mentor-content .container .right-side .layer-cover{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.mentor-content .container .clear{
+    clear: left;
+}
+
+/***************************************/
+/*tablet*/
+@media (max-width: 1000px){
+    .body-content .container h2{
+        font-size: 15px;
+    }
+
+    .body-content .container .list-item .list{
+        width: 40%;
+    }
+
+    .bottom-body-content .container .question-content h2{
+        font-size: 15px;
+        float: none;
+        margin-bottom: 5px;
+    }
+
+    .bottom-body-content .container .see-all a{
+        float: none;
+        display: inline-block;
+    }
+
+    .mentor-content .container{
+        width: 80%;
+    }
+
+    .mentor-content .container .left-side{
+        width: 100%;
+    }
+
+    .mentor-content .container .left-side p{
+        width: 100%;
+    }
+
+    .mentor-content .container .left-side h1{
+        font-size: 30px;
+    }
+
+    .mentor-content .container .right-side{
+        width: 100%;
+    }
+
+    .mentor-content .container .right-side img{
+        display: block;
+    }
+}
+
+/*smartphone*/
+@media (max-width: 670px){
+    .body-content .container h2{
+        font-size: 15px;
+    }
+
+    .body-content .container .list-item .list{
+        width: 80%;
+    }
+
+    .bottom-body-content .container .question-content h2{
+        font-size: 15px;
+        float: none;
+        margin-bottom: 5px;
+    }
+
+    .bottom-body-content .container .see-all a{
+        float: none;
+        display: inline-block;
+    }
+
+    .mentor-content .container{
+        width: 80%;
+    }
+
+    .mentor-content .container .left-side{
+        width: 100%;
+    }
+
+    .mentor-content .container .left-side p{
+        width: 100%;
+    }
+
+    .mentor-content .container .left-side h1{
+        font-size: 25px;
+    }
+
+    .mentor-content .container .right-side{
+        width: 100%;
+    }
+  }
