@@ -1,0 +1,32 @@
+@media (max-width:1000px) {
+
+}
+
+@media (max-width:670px) {
+    .header-right .fa {
+        display: block;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation li {
+        float: none;
+        height: 60px;
+    }
+
+    .header-right input:checked~.navigation {
+        display: block;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        text-align: left;
+    } 
+
+    .nav {
+        width: 100%;
+        line-height: 60px;
+    }
+}
