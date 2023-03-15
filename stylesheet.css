@@ -479,3 +479,30 @@ table {
 .mentor-content .container .clear {
   clear: left;
 }
+
+.contact-form{
+  margin: 250px auto;
+  width: 400px;
+  padding: 5px;
+}
+
+input, textarea{
+  width:300px;
+  margin-top:5px;
+  margin-bottom:10px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+.contact-submit{
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+.title-form{
+border-bottom: 2px solid #dee7ec;
+font-size: 28px;
+padding-bottom: 15px;
+margin-bottom: 20px;
+}
