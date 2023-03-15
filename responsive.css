@@ -86,4 +86,10 @@
   .logo-right {
     width: 0%;
   }
+
+  .search-box img {
+    height: 30x;
+    width: 50px;
+    cursor: pointer;
+  }
 }
