@@ -91,6 +91,7 @@ header input {
 .main {
   display: flex;
   margin-top: 50px;
+  margin-bottom: 30px;
   padding-top: 100px;
 }
 
@@ -203,7 +204,6 @@ footer {
   text-align: left;
   font: bold 16px sans-serif;
   padding: 50px 50px 60px 50px;
-  margin-top: 80px;
 }
 
 .footer-distributed .footer-left,
@@ -454,10 +454,9 @@ table {
   margin-top: 10px;
 }
 
-.tutor-left,
-.tutor-right {
-  flex-basis: 50%;
-  padding: 15px 15px;
+.mentor-content {
+  width: 100%;
+  font-family: sans-serif;
 }
 
 .logo-tutor {
@@ -617,8 +616,12 @@ table {
   color: #808097;
 }
 
-.input1:focus ~ .placeholder {
-  color: white;
+/*BAGIAN FORM*/
+
+.contact-form {
+  margin: 250px auto;
+  width: 400px;
+  padding: 5px;
 }
 
 .submit {
@@ -636,8 +639,16 @@ table {
   width: 100%;
 }
 
-.submit:active {
-  background-color: rgba(113, 201, 206, 0.9);
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.title-form {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 /* Footer left */
