@@ -89,6 +89,7 @@ header input {
 .main {
   display: flex;
   margin-top: 50px;
+  margin-bottom: 30px;
   padding-top: 100px;
 }
 
@@ -201,7 +202,6 @@ footer {
   text-align: left;
   font: bold 16px sans-serif;
   padding: 50px 50px 60px 50px;
-  margin-top: 80px;
 }
 
 .footer-distributed .footer-left,
@@ -446,6 +446,8 @@ table {
 .mentor-content {
   width: 100%;
   font-family: sans-serif;
+  padding-top: 30px;
+  padding-bottom: 200px;
 }
 
 .mentor-content .container {
@@ -508,9 +510,7 @@ table {
 /*BAGIAN FORM*/
 
 .contact-form {
-padding-top:200px;
-padding-left:15px;
-padding-right:15px;
+padding: 30px;
 font-family:sans-serif;
 background-color:rgb(237, 237, 237);
 }
