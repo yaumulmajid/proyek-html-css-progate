@@ -53,7 +53,7 @@
   .logo-tutor {
     width: 80%;
     border-radius: 10px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
   }
   .tutor-left h1 {
     font-size: 26px;
@@ -172,7 +172,7 @@
   }
   .tutor-left {
     margin-left: 20px;
-    width: 100%;
+    /* width: 100%; */
     flex-basis: 100%;
   }
   .tutor-left h1 {
@@ -193,7 +193,7 @@
 
   .bottom-body-content .container {
     padding: 20px;
-    width: 100%;
+    /* width: 100%; */
     margin-left: 15px;
   }
 
