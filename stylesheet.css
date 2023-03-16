@@ -505,10 +505,14 @@ table {
   clear: left;
 }
 
+/*BAGIAN FORM*/
+
 .contact-form {
-  margin: 250px auto;
-  width: 400px;
-  padding: 5px;
+padding-top:200px;
+padding-left:15px;
+padding-right:15px;
+font-family:sans-serif;
+background-color:rgb(237, 237, 237);
 }
 
 input,
@@ -522,12 +526,12 @@ textarea {
 }
 
 .contact-submit {
-  background-color: #dee7ec;
-  color: #889eab;
+  background-color: #d1d1d1;
+  color: black;
 }
 
 .title-form {
-  border-bottom: 2px solid #dee7ec;
+  border-bottom: 2px solid #d1d1d1;
   font-size: 28px;
   padding-bottom: 15px;
   margin-bottom: 20px;
