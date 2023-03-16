@@ -510,9 +510,9 @@ table {
 /*BAGIAN FORM*/
 
 .contact-form {
-padding: 30px;
-font-family:sans-serif;
-background-color:rgb(237, 237, 237);
+  padding: 30px;
+  font-family: sans-serif;
+  background-color: rgb(237, 237, 237);
 }
 
 input,
