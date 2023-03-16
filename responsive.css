@@ -160,11 +160,15 @@
 
   .content-tutor {
     display: flex;
-    flex-wrap: wrap;
-    height: 200px;
+    flex-direction: column;
+    height: 400px;
+    margin-bottom: 25px;
   }
   .logo-tutor {
-    width: 0%;
+    margin-top: 25px;
+    margin-left: 34px;
+    width: 90%;
+    background-color: white;
   }
   .tutor-left {
     margin-left: 20px;
