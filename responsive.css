@@ -116,8 +116,8 @@
     margin-top: 10px;
   }
   .main-left p {
-    font-size: 14px;
-    margin-top: 60px;
+    font-size: 17px;
+    margin-top: 50px;
   }
   .btn button {
     margin-top: 60px;
@@ -161,7 +161,7 @@
   .content-tutor {
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 450px;
     margin-bottom: 25px;
   }
   .logo-tutor {
