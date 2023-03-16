@@ -167,7 +167,7 @@
   .logo-tutor {
     margin-top: 25px;
     margin-left: 34px;
-    width: 90%;
+    width: 85%;
     background-color: white;
   }
   .tutor-left {
@@ -188,6 +188,7 @@
     font-weight: 500;
     font-family: "Times New Roman", Times, serif;
     margin-left: 15px;
+    margin-right: 45px;
   }
 
   .bottom-body-content .container {
