@@ -44,28 +44,23 @@
     display: inline-block;
   }
 
-  .mentor-content .container {
-    width: 80%;
-  }
-
-  .mentor-content .container .left-side {
+  /* tutor */
+  .logo-tutor {
     width: 100%;
+    border-radius: 10px;
+  }
+  .tutor-left h1 {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 10px;
   }
 
-  .mentor-content .container .left-side p {
-    width: 100%;
-  }
-
-  .mentor-content .container .left-side h1 {
-    font-size: 30px;
-  }
-
-  .mentor-content .container .right-side {
-    width: 100%;
-  }
-
-  .mentor-content .container .right-side img {
-    display: block;
+  .tutor-left p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Times New Roman", Times, serif;
+    margin-right: 20px;
   }
 }
 
@@ -157,29 +152,39 @@
     display: inline-block;
   }
 
-  .mentor-content .container {
-    width: 80%;
+  .content-tutor {
+    display: flex;
+    flex-wrap: wrap;
   }
-
-  .mentor-content .container .left-side {
+  .logo-tutor {
+    width: 0%;
+  }
+  .tutor-left {
+    margin-left: 20px;
     width: 100%;
+    flex-basis: 100%;
+  }
+  .tutor-left h1 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 10px;
   }
 
-  .mentor-content .container .left-side p {
+  .tutor-left p {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .bottom-body-content .container {
+    padding: 20px;
     width: 100%;
+    margin-left: 15px;
   }
 
-  .mentor-content .container .left-side h1 {
-    font-size: 25px;
-  }
+  /* form */
 
-  .mentor-content .container .right-side {
-    width: 100%;
-  }
-}
-
-/* responsive footer */
-@media (max-width: 880px) {
   .footer-distributed .footer-left,
   .footer-distributed .footer-center,
   .footer-distributed .footer-right {
