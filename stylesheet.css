@@ -31,6 +31,10 @@ header {
   padding-right: 30px;
 }
 
+.logo span {
+  color: #ffd667;
+}
+
 .header-right {
   float: right;
 }
@@ -187,7 +191,6 @@ a:link {
 }
 
 footer {
-  position: fixed;
   bottom: 0;
 }
 
