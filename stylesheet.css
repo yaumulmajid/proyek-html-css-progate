@@ -451,19 +451,19 @@ table {
 /* tutor */
 .content-tutor {
   display: flex;
-  margin-top: 10px;
-}
-
-.mentor-content {
-  width: 100%;
-  font-family: sans-serif;
+  margin-top: 40px;
+  height: 450px;
 }
 
 .logo-tutor {
   width: 80%;
   border-radius: 10px;
+  margin-left: 40px;
 }
-
+.tutor-left,
+.tutor-right {
+  flex-basis: 50%;
+}
 .tutor-left {
   margin-left: 100px;
 }
@@ -615,7 +615,9 @@ table {
 .input1:not(:placeholder-shown) ~ .placeholder {
   color: #808097;
 }
-
+.input1:focus ~ .placeholder {
+  color: white;
+}
 /*BAGIAN FORM*/
 
 .contact-form {
